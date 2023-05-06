@@ -6,10 +6,10 @@ services:
       context: . 
       target: langchain-serve-img
     ports:
-      - '8080:8080'
+      - '5001:8080'
   pdf-gpt:
     build:
       context: . 
       target: pdf-gpt-img
     ports:
-      - '7860:7860'
+      - '5002:7860'
